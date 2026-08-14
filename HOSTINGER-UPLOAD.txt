@@ -1,0 +1,9 @@
+HOSTINGER 直接上传说明
+
+1. 登录 hPanel，进入 Websites → Dashboard → File Manager。
+2. 打开 public_html，先备份或移走旧网站文件。
+3. 上传 hostinger-nexora-99.zip，并在 public_html 内解压。
+4. 确认 public_html 根目录直接存在 index.html。
+5. 如果仍显示旧页面，请清除 Hostinger Cache/CDN Cache。
+
+该网站为纯 HTML/CSS/JavaScript，无需 Node.js、数据库或构建命令。
